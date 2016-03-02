@@ -1,4 +1,6 @@
-﻿using Bing.Maps;
+﻿//joko nyt?...
+
+using Bing.Maps;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
