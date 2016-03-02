@@ -1,0 +1,21 @@
+﻿
+   <UserControl 
+    x:Class="Rally.Car" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:local="using:Rally" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    Name="CarTemplate">
+
+    <Image Name="CarImage" Source="/Assets/racecar.png" Height="96" Width="43">
+        <Image.RenderTransform>
+            <!--<RotateTransform CenterX="21" CenterY="70" Angle="{Binding Heading,ElementName=CarTemplate}"/>-->
+            <TransformGroup>
+                <RotateTransform CenterX="21" CenterY="70" Angle="{Binding Heading,ElementName=CarTemplate}"/>
+                <ScaleTransform ScaleX="0.5" ScaleY="0.5" 
+                                    CenterX="21" CenterY="48"/>
+            </TransformGroup>
+        </Image.RenderTransform>
+    </Image>
+    </UserControl> 
