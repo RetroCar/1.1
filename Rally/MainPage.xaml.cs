@@ -1,5 +1,5 @@
 ﻿//joko nyt?...
-//entä nyt? morororo
+
 
 using Bing.Maps;
 using System;
