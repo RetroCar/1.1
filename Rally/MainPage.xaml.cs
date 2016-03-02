@@ -1,4 +1,5 @@
 ﻿//joko nyt?...
+//entä nyt?
 
 using Bing.Maps;
 using System;
